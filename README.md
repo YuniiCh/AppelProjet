@@ -25,3 +25,7 @@
       6. Copier le chemin d'accès absolue de dossier "GestionAppel\src\main\webapp\resources\outPutFiles"
       7. Remplacer le constant "PDF_DIRECTORY" de model/JustificatifConstant.java en ajoutant "\\" à la fin
 7. Configuration de Tomcat
+
+
+## 6. Diagramme de classe (uml)
+![UML](img/UML.png)
