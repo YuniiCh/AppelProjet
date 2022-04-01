@@ -13,18 +13,19 @@
 |**CLAUDEL FRANK**|[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/faresmegari) [![Gmail Badge](https://img.shields.io/badge/-faares.mega@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:faares.mega@gmail.com)](mailto:faares.mega@gmail.com)|
 |**Shuanghong LI**|[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/Li-Shuanghong) [![Gmail Badge](https://img.shields.io/badge/-lishuanghong3849@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lishuanghong3849@gmail.com)](mailto:lishuanghong3849@gmail.com)|
 ## 2. Installation du projet
-1. Copier URL Github 
-2. Import Projet
-3. Connexion DB to phpMyAdmin
-(Notre projet utilise une base de données déploiée sur SKYSQL donc pas de configuration en plus) 
-4. Adapdation de chemin d'accès 
-      1. Copier le chemin d'accès absolue de dossier "GestionAppel\src\main\webapp\resources\fileJustificatif" (dans IntelliJ, cliquer droit de dossier "fileJustificatif" -> Copy path/reference -> absolute path)
-      3. Remplacer le constant "UPLOAD_DIRECTORY" de model/JustificatifConstant.java en ajoutant "\\" à la fin
-      4. Copier le chemin d'accès absolue de dossier "GestionAppel\src\main\webapp\resources\photoProfil"
-      5. Remplacer le constant "UPLOAD_DIRECTORY_PHOTO" de model/JustificatifConstant.java en ajoutant "\\" à la fin
-      6. Copier le chemin d'accès absolue de dossier "GestionAppel\src\main\webapp\resources\outPutFiles"
-      7. Remplacer le constant "PDF_DIRECTORY" de model/JustificatifConstant.java en ajoutant "\\" à la fin
-7. Configuration de Tomcat
+1.Préparer l’intellij environnement
+2.Copier l’url Github et import Projet
+3.Configurer le tomcat en cliquant Add Configuration
+   - Rajouter le tomcat dans Application server
+   - choix de la version Tomcat
+   - choisir le projet correspodant dans le Déployement
+4. Préparer un BD 'dai' local
+   - Modifier le fichier hibernate.cfg.xml en utilisant le nom et le mot de pass propre
+5. Run le file GenererBD.java seulement pour remplir les données dans le BD dai
+6. lancer tomcat
+
+Remarque: Pour saisir le login et le mot de pass, il est possible trouver le compte dans le BD dai sous table Utilisateur
+
 
 
 ## 6. Diagramme de classe (uml)
