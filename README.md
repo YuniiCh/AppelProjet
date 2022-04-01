@@ -28,4 +28,4 @@
 
 
 ## 6. Diagramme de classe (uml)
-![UML](img/UML.png)
+![UML](UML.png)
