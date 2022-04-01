@@ -27,7 +27,7 @@
 7. Lancer tomcat
 
 ## 4. Structure (MVC pattern)
-![MVC](captures/structure_mvc.png)
+![MVC](captures/structureMVC.png)
 
 ## 5. Technologie
 ![TECH](captures/tech.png)
