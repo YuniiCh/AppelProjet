@@ -1,7 +1,7 @@
 # AppelProjet
 
 # ABOUT PROJECT
-#### [ GestionAppel ] Développement d'un site web en Java : Application de gestion de l'appel en ligne (Inscription, Connexion, ) <br><span style="font-size:15px">*( 2021.02.07 ~ 2021.02.11 )*</span>
+#### [ GestionAppel ] Développement d'un site web en Java : Application de gestion de l'appel en ligne (Inscription, Connexion, ) <br><span style="font-size:15px">*( 2021.03.21 ~ 2021.04.01 )*</span>
 
 ## 1. Membres de l'équipe
 
