@@ -15,7 +15,7 @@
 ## 2. Installation du projet
 1. Copier URL Github 
 2. Import Projet
-3. Connexion DB to MySQL
+3. Connexion DB to phpMyAdmin
 (Notre projet utilise une base de données déploiée sur SKYSQL donc pas de configuration en plus) 
 4. Adapdation de chemin d'accès 
       1. Copier le chemin d'accès absolue de dossier "GestionAppel\src\main\webapp\resources\fileJustificatif" (dans IntelliJ, cliquer droit de dossier "fileJustificatif" -> Copy path/reference -> absolute path)
